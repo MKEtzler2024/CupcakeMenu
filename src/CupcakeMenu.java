@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class LoopsPractice {
+public class CupcakeMenu {
     public static void main(String[] args) {
         Scanner scnr = new Scanner(System.in);
         int numCakes=4;
