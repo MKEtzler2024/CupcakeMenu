@@ -11,9 +11,9 @@ public class Calculator {
         boolean repeat = true;
         while(repeat ==true) {
             System.out.print("Enter your first number          : ");
-            num1 = scnr.nextInt();
+            num1 = scnr.nextDouble();
             System.out.print("Enter your second number         : ");
-            num2 = scnr.nextInt();
+            num2 = scnr.nextDouble();
             System.out.print("Enter a math operation (+ - * /) : ");
             operation = scnr.next();
 
