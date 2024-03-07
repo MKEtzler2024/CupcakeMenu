@@ -7,7 +7,7 @@ public class rockpaperscissors{
         String aiMove;
         boolean winner = false;
         System.out.println("Welcome to Tic Tak Toe");
-        System.out.println("Your moves are: Rock, Paper, Scissors, Spock");
+        System.out.println("Your moves are: Rock, Paper, Scissors, Lizard, Spock");
         System.out.print("Enter your move: ");
         playerMove = scnr.next().toLowerCase();
         aiMove = aiMove();
